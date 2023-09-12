@@ -7,8 +7,9 @@ package linkedhashmap
 import (
 	"bytes"
 	"encoding/json"
-	"github.com/ugurcsen/gods-generic/containers"
-	"github.com/ugurcsen/gods-generic/utils"
+
+	"github.com/luryson/gods-generic/containers"
+	"github.com/luryson/gods-generic/utils"
 )
 
 // Assert Serialization implementation
@@ -54,7 +55,7 @@ func (m *Map[K, T]) ToJSON() ([]byte, error) {
 }
 
 // FromJSON populates map from the input JSON representation.
-//func (m *Map[K, T) FromJSON(data []byte) error {
+// func (m *Map[K, T) FromJSON(data []byte) error {
 //	elements := make(map[string]interface{})
 //	err := json.Unmarshal(data, &elements)
 //	if err == nil {
@@ -64,7 +65,7 @@ func (m *Map[K, T]) ToJSON() ([]byte, error) {
 //		}
 //	}
 //	return err
-//}
+// }
 
 // FromJSON populates map from the input JSON representation.
 func (m *Map[K, T]) FromJSON(data []byte) error {

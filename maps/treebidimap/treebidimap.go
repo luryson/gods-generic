@@ -20,9 +20,9 @@ package treebidimap
 //
 // import (
 // 	"fmt"
-// 	"github.com/ugurcsen/gods-generic/maps"
-// 	"github.com/ugurcsen/gods-generic/trees/redblacktree"
-// 	"github.com/ugurcsen/gods-generic/utils"
+// 	"github.com/luryson/gods-generic/maps"
+// 	"github.com/luryson/gods-generic/trees/redblacktree"
+// 	"github.com/luryson/gods-generic/utils"
 // 	"strings"
 // )
 //

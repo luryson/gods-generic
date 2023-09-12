@@ -6,7 +6,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/ugurcsen/gods-generic/sets/treeset"
+
+	"github.com/luryson/gods-generic/sets/treeset"
 )
 
 func printSet(txt string, set *treeset.Set[int]) {

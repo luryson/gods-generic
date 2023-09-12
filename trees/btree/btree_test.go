@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ugurcsen/gods-generic/utils"
+	"github.com/luryson/gods-generic/utils"
 )
 
 func TestBTreeGet1(t *testing.T) {
@@ -745,7 +745,7 @@ func TestBTreeIterator1Next(t *testing.T) {
 	tree.Put(4, "d")
 	tree.Put(1, "x")
 	tree.Put(2, "b")
-	tree.Put(1, "a") //overwrite
+	tree.Put(1, "a") // overwrite
 	it := tree.Iterator()
 	count := 0
 	for it.Next() {
@@ -769,7 +769,7 @@ func TestBTreeIterator1Prev(t *testing.T) {
 	tree.Put(4, "d")
 	tree.Put(1, "x")
 	tree.Put(2, "b")
-	tree.Put(1, "a") //overwrite
+	tree.Put(1, "a") // overwrite
 	it := tree.Iterator()
 	for it.Next() {
 	}

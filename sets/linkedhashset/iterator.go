@@ -5,8 +5,8 @@
 package linkedhashset
 
 import (
-	"github.com/ugurcsen/gods-generic/containers"
-	"github.com/ugurcsen/gods-generic/lists/doublylinkedlist"
+	"github.com/luryson/gods-generic/containers"
+	"github.com/luryson/gods-generic/lists/doublylinkedlist"
 )
 
 // Assert Iterator implementation

@@ -7,7 +7,7 @@ package treebidimap
 // import (
 // 	"encoding/json"
 // 	"fmt"
-// 	"github.com/ugurcsen/gods-generic/utils"
+// 	"github.com/luryson/gods-generic/utils"
 // 	"strings"
 // 	"testing"
 // )

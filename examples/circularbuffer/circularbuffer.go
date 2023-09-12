@@ -4,7 +4,7 @@
 
 package main
 
-import cb "github.com/ugurcsen/gods-generic/queues/circularbuffer"
+import cb "github.com/luryson/gods-generic/queues/circularbuffer"
 
 // CircularBufferExample to demonstrate basic usage of CircularBuffer
 func main() {

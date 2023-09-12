@@ -7,9 +7,10 @@ package treeset
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/ugurcsen/gods-generic/utils"
 	"strings"
 	"testing"
+
+	"github.com/luryson/gods-generic/utils"
 )
 
 func TestSetNew(t *testing.T) {

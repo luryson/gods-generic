@@ -6,7 +6,8 @@ package main
 
 import (
 	"fmt"
-	rbt "github.com/ugurcsen/gods-generic/trees/redblacktree"
+
+	rbt "github.com/luryson/gods-generic/trees/redblacktree"
 )
 
 // RedBlackTreeExample to demonstrate basic usage of RedBlackTree

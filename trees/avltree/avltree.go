@@ -12,8 +12,8 @@ package avltree
 import (
 	"fmt"
 
-	"github.com/ugurcsen/gods-generic/trees"
-	"github.com/ugurcsen/gods-generic/utils"
+	"github.com/luryson/gods-generic/trees"
+	"github.com/luryson/gods-generic/utils"
 )
 
 // Assert Tree implementation

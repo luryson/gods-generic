@@ -15,8 +15,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ugurcsen/gods-generic/lists/doublylinkedlist"
-	"github.com/ugurcsen/gods-generic/maps"
+	"github.com/luryson/gods-generic/lists/doublylinkedlist"
+	"github.com/luryson/gods-generic/maps"
 )
 
 // Assert Map implementation

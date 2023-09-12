@@ -11,11 +11,12 @@ package treeset
 
 import (
 	"fmt"
-	"github.com/ugurcsen/gods-generic/sets"
-	rbt "github.com/ugurcsen/gods-generic/trees/redblacktree"
-	"github.com/ugurcsen/gods-generic/utils"
 	"reflect"
 	"strings"
+
+	"github.com/luryson/gods-generic/sets"
+	rbt "github.com/luryson/gods-generic/trees/redblacktree"
+	"github.com/luryson/gods-generic/utils"
 )
 
 // Assert Set implementation

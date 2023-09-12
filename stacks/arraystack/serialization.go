@@ -5,7 +5,7 @@
 package arraystack
 
 import (
-	"github.com/ugurcsen/gods-generic/containers"
+	"github.com/luryson/gods-generic/containers"
 )
 
 // Assert Serialization implementation

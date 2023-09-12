@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ugurcsen/gods-generic/utils"
+	"github.com/luryson/gods-generic/utils"
 )
 
 func TestAVLTreeGet(t *testing.T) {
@@ -65,7 +65,7 @@ func TestAVLTreePut(t *testing.T) {
 	tree.Put(4, "d")
 	tree.Put(1, "x")
 	tree.Put(2, "b")
-	tree.Put(1, "a") //overwrite
+	tree.Put(1, "a") // overwrite
 
 	if actualValue := tree.Size(); actualValue != 7 {
 		t.Errorf("Got %v expected %v", actualValue, 7)
@@ -106,7 +106,7 @@ func TestAVLTreeRemove(t *testing.T) {
 	tree.Put(4, "d")
 	tree.Put(1, "x")
 	tree.Put(2, "b")
-	tree.Put(1, "a") //overwrite
+	tree.Put(1, "a") // overwrite
 
 	tree.Remove(5)
 	tree.Remove(6)
@@ -256,7 +256,7 @@ func TestAVLTreeIterator1Next(t *testing.T) {
 	tree.Put(4, "d")
 	tree.Put(1, "x")
 	tree.Put(2, "b")
-	tree.Put(1, "a") //overwrite
+	tree.Put(1, "a") // overwrite
 	// │   ┌── 7
 	// └── 6
 	//     │   ┌── 5
@@ -288,7 +288,7 @@ func TestAVLTreeIterator1Prev(t *testing.T) {
 	tree.Put(4, "d")
 	tree.Put(1, "x")
 	tree.Put(2, "b")
-	tree.Put(1, "a") //overwrite
+	tree.Put(1, "a") // overwrite
 	// │   ┌── 7
 	// └── 6
 	//     │   ┌── 5

@@ -7,9 +7,10 @@ package treemap
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/ugurcsen/gods-generic/utils"
 	"strings"
 	"testing"
+
+	"github.com/luryson/gods-generic/utils"
 )
 
 func TestMapPut(t *testing.T) {
@@ -21,7 +22,7 @@ func TestMapPut(t *testing.T) {
 	m.Put(4, "d")
 	m.Put(1, "x")
 	m.Put(2, "b")
-	m.Put(1, "a") //overwrite
+	m.Put(1, "a") // overwrite
 
 	if actualValue := m.Size(); actualValue != 7 {
 		t.Errorf("Got %v expected %v", actualValue, 7)
@@ -70,7 +71,7 @@ func TestMapMin(t *testing.T) {
 	m.Put(4, "d")
 	m.Put(1, "x")
 	m.Put(2, "b")
-	m.Put(1, "a") //overwrite
+	m.Put(1, "a") // overwrite
 
 	actualKey, actualValue := m.Min()
 	expectedKey, expectedValue := 1, "a"
@@ -97,7 +98,7 @@ func TestMapMax(t *testing.T) {
 	m.Put(4, "d")
 	m.Put(1, "x")
 	m.Put(2, "b")
-	m.Put(1, "a") //overwrite
+	m.Put(1, "a") // overwrite
 
 	actualKey, actualValue := m.Max()
 	expectedKey, expectedValue := 7, "g"
@@ -133,7 +134,7 @@ func TestMapRemove(t *testing.T) {
 	m.Put(4, "d")
 	m.Put(1, "x")
 	m.Put(2, "b")
-	m.Put(1, "a") //overwrite
+	m.Put(1, "a") // overwrite
 
 	m.Remove(5)
 	m.Remove(6)

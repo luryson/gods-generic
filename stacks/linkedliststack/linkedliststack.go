@@ -11,9 +11,10 @@ package linkedliststack
 
 import (
 	"fmt"
-	"github.com/ugurcsen/gods-generic/lists/singlylinkedlist"
-	"github.com/ugurcsen/gods-generic/stacks"
 	"strings"
+
+	"github.com/luryson/gods-generic/lists/singlylinkedlist"
+	"github.com/luryson/gods-generic/stacks"
 )
 
 // Assert Stack implementation

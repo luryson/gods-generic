@@ -13,10 +13,11 @@ package binaryheap
 
 import (
 	"fmt"
-	"github.com/ugurcsen/gods-generic/lists/arraylist"
-	"github.com/ugurcsen/gods-generic/trees"
-	"github.com/ugurcsen/gods-generic/utils"
 	"strings"
+
+	"github.com/luryson/gods-generic/lists/arraylist"
+	"github.com/luryson/gods-generic/trees"
+	"github.com/luryson/gods-generic/utils"
 )
 
 // Assert Tree implementation

@@ -15,9 +15,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ugurcsen/gods-generic/maps"
-	rbt "github.com/ugurcsen/gods-generic/trees/redblacktree"
-	"github.com/ugurcsen/gods-generic/utils"
+	"github.com/luryson/gods-generic/maps"
+	rbt "github.com/luryson/gods-generic/trees/redblacktree"
+	"github.com/luryson/gods-generic/utils"
 )
 
 // Assert Map implementation
