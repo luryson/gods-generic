@@ -15,16 +15,14 @@
 // Reference: https://en.wikipedia.org/wiki/Associative_array
 package maps
 
-import "github.com/ugurcsen/gods-generic/containers"
-
 // Map interface that all maps implement
-type Map[K, T comparable] interface {
+type Map[K comparable, T any] interface {
 	Put(key K, value T)
 	Get(key K) (value T, found bool)
 	Remove(key K)
 	Keys() []K
 
-	containers.Container[T]
+	// containers.Container[T]
 	// Empty() bool
 	// Size() int
 	// Clear()
@@ -33,8 +31,8 @@ type Map[K, T comparable] interface {
 }
 
 // BidiMap interface that all bidirectional maps implement (extends the Map interface)
-type BidiMap[K, T comparable] interface {
-	GetKey(value T) (key K, found bool)
-
-	Map[K, T]
-}
+// type BidiMap[K, T comparable] interface {
+// 	GetKey(value T) (key K, found bool)
+//
+// 	Map[K, T]
+// }

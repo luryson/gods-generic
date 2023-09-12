@@ -13,6 +13,7 @@ package hashmap
 
 import (
 	"fmt"
+
 	"github.com/ugurcsen/gods-generic/maps"
 )
 
@@ -20,7 +21,7 @@ import (
 var _ maps.Map[int, int] = (*Map[int, int])(nil)
 
 // Map holds the elements in go's native map
-type Map[K, T comparable] struct {
+type Map[K comparable, T any] struct {
 	m map[K]T
 }
 

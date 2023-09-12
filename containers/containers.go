@@ -16,7 +16,7 @@ package containers
 import "github.com/ugurcsen/gods-generic/utils"
 
 // Container is base interface that all data structures implement.
-type Container[T comparable] interface {
+type Container[T any] interface {
 	Empty() bool
 	Size() int
 	Clear()

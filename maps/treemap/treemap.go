@@ -13,17 +13,18 @@ package treemap
 
 import (
 	"fmt"
+	"strings"
+
 	"github.com/ugurcsen/gods-generic/maps"
 	rbt "github.com/ugurcsen/gods-generic/trees/redblacktree"
 	"github.com/ugurcsen/gods-generic/utils"
-	"strings"
 )
 
 // Assert Map implementation
 var _ maps.Map[int, int] = (*Map[int, int])(nil)
 
 // Map holds the elements in a red-black tree
-type Map[K, T comparable] struct {
+type Map[K comparable, T any] struct {
 	tree *rbt.Tree[K, T]
 }
 
